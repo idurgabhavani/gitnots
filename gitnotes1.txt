@@ -1,0 +1,18 @@
+
+git init
+git config --local user.email "inukondadurgabhavani426@gmail.com"
+git config --local user.name "idurgabhavani"
+git status
+git remote -v
+git clone url
+git add origin
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C url
+git add .
+git commit -m "commiteted changes"
+git push origin master
+git pull
+git merge
+git fetch 
+fetch : it will only notify the changes in remote 
+merge  : [A[D[D[D :[B [A[D it  it will add changes from remote repository to local repositry
+pull    : pull will do both fethc and merge works in one time i.e, it will fetch and add any changes to local repositry 
